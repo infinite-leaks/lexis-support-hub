@@ -1,0 +1,3 @@
+- Added a modernized PC Specs tab with progress bars.
+- Implemented a "What's New" popup after updates.
+- Fixed a bug where the copy button was not always visible.
