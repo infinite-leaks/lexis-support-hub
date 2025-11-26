@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+# Usually these files are created by PyInstaller.
+*.spec
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# --- Project-Specific Ignores ---
+
+# The compiled executable itself.
+# This belongs in GitHub Releases, not the source repository.
+lexis-support.exe
+
+# Temporary files created by the auto-updater
+new_*.exe
+updater.bat
+
+# Temporary icon file created at runtime
+*.ico
