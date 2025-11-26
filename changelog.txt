@@ -1,3 +1,9 @@
+
+- Added a comprehensive Process Manager with search, refresh, and process termination capabilities.
+- Added a Startup Apps manager to view and control programs that run on boot (requires admin).
+- Added real-time CPU and RAM usage monitors to the PC Specs tab.
+- Fixed a persistent bug where icons on pop-up windows would disappear.
+- Fixed a bug causing empty entries to appear in the Process Manager.
 - Added a modernized PC Specs tab with progress bars.
 - Implemented a "What's New" popup after updates.
 - Fixed a bug where the copy button was not always visible.
