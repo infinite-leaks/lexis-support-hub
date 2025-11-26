@@ -34,8 +34,8 @@ If you want to run or build the application from the source code.
 
 1.  Clone the repository:
     ```sh
-    git clone https://github.com/infinite-leaks/lexis-support.git
-    cd lexis-support
+    git clone https://github.com/infinite-leaks/lexis-support-hub.git
+    cd lexis-support-hub
     ```
 
 2.  Install the required dependencies:
