@@ -1,15 +1,28 @@
 {
-    "boot": "Download EasyUEFI and rebuild EFI System Partition. Use patcher if trial expired.",
-    "secure": "BIOS -> Security/Boot -> Disable Secure Boot -> Save (F10)",
-    "ban": "Win+R -> %appdata% -> Delete: LEX_2_, LEX_2_D, LEX_2_U, LEX SEED",
-    "inject": "Run as admin, disable antivirus, use windowed mode, restart game+tool",
-    "detect": "Use legit accounts, don't be obvious, take breaks, avoid streaming.\nYou are very unlikely to get banned unless you use money options.",
-    "prereq": "1. Install Visual C++: https://aka.ms/vs/17/release/vc_redist.x64.exe\n2. Make sure WebView2 and Microsoft Edge are installed.\n3. Right-click launcher.exe -> Properties -> Unblock checkbox -> Apply.",
-    "error3": "For Error -3 (Data Directory):\nRun CMD and enter: icacls \"%USERPROFILE%\\Lexis\" /grant Everyone:(F) /t /c /q",
-    "error4": "For Error -4 (Blank Screen):\n1. Try deleting the %USERPROFILE%/Lexis/Launcher folder.\n2. If that fails, reinstall WebView2: https://superuser.com/a/1751710",
-    "integrity": "To disable Memory Integrity:\n1. Settings > Privacy & Security > Windows Security > Device Security.\n2. Click 'Core Isolation details'.\n3. Toggle 'Memory Integrity' to Off and restart your PC.",
-    "gta": "For GTA Menu Issues:\n1. Make sure BattlEye is enabled.\n2. Try loading the menu BEFORE opening the game.\n3. Delete FSL if present.",
-    "reset": "General Reset Steps:\n1. Delete any %APPDATA%/LEX_x files.\n2. Delete the %USERPROFILE%/Lexis folder.\n3. Verify integrity of game files.",
-    "antivirus": "Disable your antivirus. For Windows Defender:\nhttps://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960",
-    "site": "Check the status of lexis.re"
+    "setup": {
+        "prereq": "1. Install Visual C++: https://aka.ms/vs/17/release/vc_redist.x64.exe\n2. Make sure WebView2 and Microsoft Edge are installed.\n3. Right-click launcher.exe -> Properties -> Unblock checkbox -> Apply.",
+        "secure_boot": "BIOS -> Security/Boot -> Disable Secure Boot -> Save (F10)",
+        "integrity": "To disable Memory Integrity:\n1. Settings > Privacy & Security > Windows Security > Device Security.\n2. Click 'Core Isolation details'.\n3. Toggle 'Memory Integrity' to Off and restart your PC.",
+        "antivirus": "Disable your antivirus. For Windows Defender:\nhttps://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960",
+        "boot": "For boot/EFI issues:\nDownload EasyUEFI and rebuild EFI System Partition. Use patcher if trial expired."
+    },
+    "usage": {
+        "inject": "Run as admin, disable antivirus, use windowed mode, restart game+tool.",
+        "detect": "Use legit accounts, don't be obvious, take breaks, avoid streaming.\nYou are very unlikely to get banned unless you use money options."
+    },
+    "errors": {
+        "faq": "Common issues:\n1. Antivirus blocking the tool (see 'antivirus').\n2. Missing prerequisites (see 'prereq').\n3. Injection issues (see 'inject').\n4. If nothing works, try a full 'reset'.",
+        "error3": "For Error -3 (Data Directory):\nRun CMD and enter: icacls \"%USERPROFILE%\\Lexis\" /grant Everyone:(F) /t /c /q",
+        "error4": "For Error -4 (Blank Screen):\n1. Try deleting the %USERPROFILE%/Lexis/Launcher folder.\n2. If that fails, reinstall WebView2: https://superuser.com/a/1751710"
+    },
+    "game_specific": {
+        "valorant": "For Valorant, ensure Riot Vanguard is running. If you have issues, try restarting the Riot Client and Vanguard from the system tray.",
+        "gta": "For GTA Menu Issues:\n1. Make sure BattlEye is enabled.\n2. Try loading the menu BEFORE opening the game.\n3. Delete FSL if present."
+    },
+    "general": {
+        "reset": "General Reset Steps:\n1. Delete any %APPDATA%/LEX_x files.\n2. Delete the %USERPROFILE%/Lexis folder.\n3. Verify integrity of game files.",
+        "ban_evade": "To clean traces:\nWin+R -> %appdata% -> Delete: LEX_2_, LEX_2_D, LEX_2_U, LEX SEED",
+        "status": "Check the service status at lexis.re",
+        "support": "Still need help? Ask in the Discord server: [Your Discord Invite Link Here]"
+    }
 }
