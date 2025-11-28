@@ -1,0 +1,1401 @@
+[
+  {
+    "version": "1.1.0",
+    "product": "Grand Theft Auto V",
+    "date": "2/26/2024",
+    "changes": {
+      "Added": [
+        "Network -> Players -> Crash (Clone Remove)"
+      ],
+      "Improved": [
+        "anti-cheat bypasses relating to DLC vehicle spawning"
+      ]
+    }
+  },
+  {
+    "version": "1.2.0",
+    "product": "Grand Theft Auto V",
+    "date": "2/27/2024",
+    "changes": {
+      "Fixed": [
+        "tooltip messages not showing",
+        "crash when changing to certain DLC models",
+        "hotkeys only saving options from one sub"
+      ],
+      "Improved": [
+        "crash protections"
+      ]
+    }
+  },
+  {
+    "version": "1.3.0",
+    "product": "Grand Theft Auto V",
+    "date": "3/1/2024",
+    "changes": {
+      "Added": [
+        "more accounts to known spammer timeout",
+        "custom outfit loading (Paragon, Stand, Ozark, Impulse, Lexis)",
+        "custom outfit saving",
+        "change appearance to an account saved outfit",
+        "custom vehicle loading (Stand, Ozark, Impulse, Lexis)",
+        "custom vehicle saving",
+        "export garages to vehicle saving"
+      ],
+      "Fixed": [
+        "sub tooltip box not being rounded",
+        "vehicle spawn preview showing on sort option",
+        "parts of the ui flashing for a frame when entering certain subs",
+        "chance of crashing when entering Personal Vehicles inside spawner",
+        "stutter when entering friends sub for the first time",
+        "some subs that get populated on enter not having \"no x found\" labels"
+      ],
+      "Improved": [
+        "crash protections"
+      ]
+    }
+  },
+  {
+    "version": "1.4.0",
+    "product": "Grand Theft Auto V",
+    "date": "3/4/2024",
+    "changes": {
+      "Added": [
+        "mission management",
+        "modify minimum players required to start a mission",
+        "online player bounty management",
+        "change appearance to a Rockstar cloud outfit",
+        "basic casino rigging (Roulette, Blackjack, Slot Machines, Lucky Wheel)",
+        "health management to self",
+        "more info to display",
+        "texture manager to settings",
+        "overwrite theme"
+      ],
+      "Fixed": [
+        "some ui elements not being editable",
+        "rare crash when injecting too early",
+        "display box possibly overflowing when bound to the right hand side"
+      ]
+    }
+  },
+  {
+    "version": "1.4.1",
+    "product": "Grand Theft Auto V",
+    "date": "3/5/2024",
+    "changes": {
+      "Fixed": [
+        "potential crash when using a keyboard in another language",
+        "potential crash when validating a memory address"
+      ],
+      "Improved": [
+        "crash protections"
+      ]
+    }
+  },
+  {
+    "version": "1.1.0",
+    "product": "Launcher",
+    "date": "3/5/2024",
+    "changes": {
+      "Added": [
+        "default translation for Chinese (based on PC language)",
+        "default Chinese translation for Grand Theft Auto V (downloaded on injection)"
+      ]
+    }
+  },
+  {
+    "version": "1.2.0",
+    "product": "Launcher",
+    "date": "3/6/2024",
+    "changes": {
+      "Added": [
+        "more output for when an error occurs"
+      ],
+      "Fixed": [
+        "debug prints causing additional steps in injection"
+      ]
+    }
+  },
+  {
+    "version": "2.0.0",
+    "product": "Launcher",
+    "date": "3/14/2024",
+    "changes": {
+      "Other": [
+        "New launcher with a new interface"
+      ]
+    }
+  },
+  {
+    "version": "2.1.1",
+    "product": "Launcher",
+    "date": "3/14/2024",
+    "changes": {
+      "Added": [
+        "free mode functionality",
+        "tester functionality"
+      ],
+      "Fixed": [
+        "not every string being translated",
+        "window sometimes not opening"
+      ]
+    }
+  },
+  {
+    "version": "2.0.0",
+    "product": "Grand Theft Auto V",
+    "date": "3/14/2024",
+    "changes": {
+      "Added": [
+        "option to disable taking control of another players vehicle when passenger (enabled by default to prevent vehicle stutters)",
+        "world VFX",
+        "network file manager for Lexis to Lexis users (themes, vehicles, outfits, loadouts)",
+        "save custom vehicle (Stand, Lexis) to garage (*)",
+        "import personal vehicle back into garage (*)",
+        "import current vehicle into garage (*)",
+        "import players current vehicle into your garage (*)",
+        "more options for auto load weapon loadout (vehicle enter, vehicle exit)",
+        "script starter to network",
+        "five player crashes",
+        "tooltip background, open tooltip background, and notify background to particles",
+        "more accounts to known spammers",
+        "spawn personal vehicle as copy",
+        "spoof models to DLC loader (allows other players to see a valid model in game)",
+        "tooltip indications for when an option can have a hotkey applied, or a custom input box opened",
+        "paste color from clipboard (formats: '#FF0000', '#FF0000FF', 'FF0000', 'FF0000FF' '255 255 255' '255 255 255 255' '255, 255, 255' '255, 255, 255, 255' '340.23, 12.33, 45.32' '340.23 12.33 45.32' '217°, 73%, 96%')"
+      ],
+      "Fixed": [
+        "scroll bar settings showing the preview scroll bar when toggled off",
+        "scroll bar showing outside of bounds for a frame when changing from small to large",
+        "crash when loading a theme that uses a texture that doesn't exist",
+        "color editor showing preview box in the middle of the menu for a frame",
+        "majority of options not being searchable",
+        "deleting hotkeys not deleting them from config",
+        "random crash when using disable ghosted for session",
+        "selecting the wrong player when previous selected player option was above current option",
+        "sticky recent players selecting wrong player when previous selected player option was above current option",
+        "potential crash when changing session with player panels open",
+        "paste into input box not showing changes until typing a character afterwards",
+        "crash loading from the main menu with weapon loadout set to load on respawn",
+        "export garages exporting slighly wrong data (please export your garages again)",
+        "some ui elements not having settings",
+        "crashing loading PNGs converted from another format (**)",
+        "text from loaded files being added to translations",
+        "spawn air vehicles in air not boosting the vehicle"
+      ],
+      "Improved": [
+        "crash protections",
+        "injection speeds",
+        "chat spam detection (will now block chat from known spammers)",
+        "hotkey notify (now shows toggle state)",
+        "texture loading (now supporting all major extensions)",
+        "default notifies"
+      ],
+      "Moved": [
+        "share DLC to network file manager",
+        "cayo perico teleports to mission management"
+      ],
+      "Notes": [
+        "(*) All new garage options allow you to import/modify the vehicle for free",
+        "(**) Current themes using textures will no longer have the textures applied, please create again"
+      ]
+    }
+  },
+  {
+    "version": "2.0.1",
+    "product": "Grand Theft Auto V",
+    "date": "3/18/2024",
+    "changes": {
+      "Fixed": [
+        "paste into input box crashing",
+        "smash vehicle windows crashing",
+        "GeoIP not working",
+        "player IP always showing as relay",
+        "chance of players leaving on session join",
+        "issues sending DLC to other Lexis users (now capped at 60MB)",
+        "crashing entering Save & Load vehicle after receiving corrupted vehicle",
+        "files shared to other Lexis users being corrupted when file size is above 0.3KB"
+      ],
+      "Improved": [
+        "input box (you can now input special characters)",
+        "crash protections"
+      ]
+    }
+  },
+  {
+    "version": "2.1.2",
+    "product": "Launcher",
+    "date": "3/18/2024",
+    "changes": {
+      "Fixed": [
+        "failing to write module to disk",
+        "window going behind other windows when resizing"
+      ]
+    }
+  },
+  {
+    "version": "2.1.3",
+    "product": "Launcher",
+    "date": "3/22/2024",
+    "changes": {
+      "Added": [
+        "logging to better help fix module writing issues"
+      ],
+      "Fixed": [
+        "downloading module for each injection instead of using cache"
+      ]
+    }
+  },
+  {
+    "version": "2.0.2",
+    "product": "Grand Theft Auto V",
+    "date": "3/22/2024",
+    "changes": {
+      "Fixed": [
+        "random crash when saving hotkey/config",
+        "custom edit stat not saving properly when using packed stat"
+      ],
+      "Improved": [
+        "crash protections"
+      ]
+    }
+  },
+  {
+    "version": "2.1.0",
+    "product": "Grand Theft Auto V",
+    "date": "3/26/2024",
+    "changes": {
+      "Added": [
+        "more menu particles (rain, fireworks)"
+      ],
+      "Fixed": [
+        "a lot of options not saving to config",
+        "issues with audio",
+        "rare crash while viewing a players panel during session leave",
+        "snow particles not saving toggles",
+        "GUI bugs with tooltips showing for a frame on submenu change",
+        "FPS display sometimes not being accurate",
+        "spawning vehicles for players spawning them for you"
+      ],
+      "Improved": [
+        "kick protections",
+        "crash protections",
+        "color history (sorted by recent, clear button)"
+      ]
+    }
+  },
+  {
+    "version": "2.1.1",
+    "product": "Grand Theft Auto V",
+    "date": "3/28/2024",
+    "changes": {
+      "Fixed": [
+        "rare crash forcing script host in the clouds",
+        "issues with garage importing",
+        "issues with casino rigging",
+        "certain submenus flashing when entering",
+        "crash when tracked player notifies on menu load",
+        "issues with turn to beast protection",
+        "issues with network script starter",
+        "issues with minimum players required for mission",
+        "no equip restrictions for weapon not working inside of interiors"
+      ],
+      "Improved": [
+        "crash protections"
+      ]
+    }
+  },
+  {
+    "version": "3.0.0",
+    "product": "Grand Theft Auto V",
+    "date": "4/1/2024",
+    "changes": {
+      "Added": [
+        "give script host to player",
+        "prevent player/ai from dragging you out of a vehicle",
+        "clear player visible wetness",
+        "laser to weapon visuals",
+        "scale override to weapon visuals",
+        "invisibility to weapon visuals",
+        "kill feed",
+        "pool size adjustments to misc",
+        "palette generation for colors",
+        "damage while invincible to modder flags",
+        "language to player panel"
+      ],
+      "Fixed": [
+        "money drops not working (Lexis is currently the only provider that's able to do this!)",
+        "some options not saving to config",
+        "panels not loading after being saved (they now save to theme instead of config)",
+        "crash injecting while in SP or MP",
+        "rare crash when searching options",
+        "rare crash leaving a mission",
+        "very rare issue where players won't show up in the menu",
+        "make vehicle savable (gift) not working as intended",
+        "player count display not showing spectate slots",
+        "weapon stats panel sometimes showing an image without the proper aspect constraints",
+        "adding entity rate limit not loading until next launch",
+        "triggerbot shooting at random entities",
+        "mission/heist start being stuck at \"Launching Session\"",
+        "time options not working in SP",
+        "garage importing not listing all garages",
+        "delete join blocked player not updating in the list"
+      ],
+      "Improved": [
+        "tune vehicle (current vehicle tune now has option for performance only)",
+        "crash protections",
+        "vision veil crash",
+        "name generation for colors",
+        "script host kick"
+      ],
+      "Moved": [
+        "glow, particle fx, grenade/bullet trails and comic vfx to weapon visuals"
+      ]
+    }
+  },
+  {
+    "version": "4.0.0",
+    "product": "Grand Theft Auto V",
+    "date": "4/18/2024",
+    "changes": {
+      "Added": [
+        "smart kick (chooses the best kick to use)",
+        "skydive to player",
+        "swim anywhere to player",
+        "instant vehicle enter",
+        "texture swapping",
+        "command box (use /)",
+        "world view to speedometers",
+        "change any vehicle to fly like a deluxo",
+        "ambient pickup to protections (and removed pickup spawn from network notifications)",
+        "set default colors for spawned vehicles",
+        "special flight to handling editor (deluxo, etc)",
+        "script host migration prevention",
+        "rockstar developer flag to player badges",
+        "desync backfire to protections",
+        "detection for aggressive desync backfire",
+        "transition settings to network (skip swoop down, skip freemode wait, async data broadcast, show transition state)",
+        "disable unskippable cutscenes to misc disables",
+        "cooldowns to misc disables (interaction menu features, equipment/vehicle requests, ceo/mc/lester abilities, casino chip exchange)",
+        "allow all vehicles to mission management",
+        "instant garage deliveries",
+        "language to spoofing",
+        "more accounts to known spammers",
+        "transactions and metrics to network logging",
+        "panel for player tracking, player search and artificial acquaintances",
+        "stats, character image and session info to remote player panels",
+        "reload bail to network",
+        "bypass max speed to vehicle",
+        "extend angles, disable entity collision and camera fov to camera",
+        "more events to reactions"
+      ],
+      "Fixed": [
+        "ui drawing off screen when game resolution is higher than monitor resolution (DSR)",
+        "horn boost boosting when car alarm triggered from breaking in",
+        "garage importer importing into the wrong garage",
+        "crash when loading/parsing corrupt/incorrect json",
+        "rare crash with player random variations",
+        "prevent rockstar flag spoofers joining (while host) not working",
+        "theme texture gif loop back not working",
+        "exclude player from reactions not working",
+        "Lexis join timeout working on Lexis users",
+        "some vehicles spawning without default flags (such as MKII not having boost)",
+        "DLC vehicles sometimes showing as malformed",
+        "tracked players freezing the game for a few seconds when entering",
+        "multi choice options not loading from config",
+        "join timeout applying when joining a session",
+        "issues with join player not working instantly",
+        "game crash loading more than four DLC peds (load at the main menu)"
+      ],
+      "Improved": [
+        "DLC ped loading (you can now drag and drop the model files and configure the attributes inside of Lexis)",
+        "on screen speedo (now shows in display box)",
+        "theme texture loading (now supports directories)",
+        "ambient drop detection (now detects new method)",
+        "super jump detection",
+        "super jump detection prevention",
+        "crash protections",
+        "kick protections",
+        "door overflow protection",
+        "force script host (now choose which script)",
+        "handling editor (now supports editing multiple types at once)",
+        "kick/crash reaction (now choose which kick/crash to use)",
+        "query player online status (less likely to fail and much faster)",
+        "super jump (no longer causes detection on good menus)",
+        "blacklisted text",
+        "disable restricted areas",
+        "remote session modded host detection (now detects backfire)",
+        "rockstar employee list (added more)",
+        "non host join timeout"
+      ]
+    }
+  },
+  {
+    "version": "5.0.0",
+    "product": "Grand Theft Auto V",
+    "date": "4/23/2024",
+    "changes": {
+      "Added": [
+        "join player as lowest peer",
+        "subway surfer join player method (faster, and won't flag for RID joining)",
+        "hidden blip to network disables (force show player blips)",
+        "chat to network logging",
+        "input timer to config",
+        "disable console logging to settings",
+        "game time and local time to misc display",
+        "auto font correction to theme (disables using system fonts when system isn't in english, will only apply with an auto load theme)",
+        "player spawn, player tracking, join blocking, join failed and spoofing to notify colors",
+        "icon editor to settings",
+        "clear notify queue to settings",
+        "show mouse cursor (bound to N)",
+        "ability to drag UI elements (toggle mouse cursor with N)",
+        "hotkey display box",
+        "mouse input disables to settings",
+        "sorting to tracked players"
+      ],
+      "Fixed": [
+        "player tracking global untrack not working",
+        "silent aim in vehicles not working",
+        "dying when falling beneath the map and spectating",
+        "game crash loading a lot of DLC vehicles (load at the main menu)",
+        "config loading allowing overflow values being applied to number/multi choice options",
+        "rainbow not working for notifies",
+        "large gaps in notifies when being re-queued due to no space on screen",
+        "player search not working",
+        "crash from tacked player notify on SP load",
+        "not being able to go online with custom DLC loaded",
+        "search option crashing",
+        "option text size not loading from config",
+        "artificial acquaintances panel still showing after deleting last entry",
+        "rare crash changing subs inside of lsc editor",
+        "issue where the current option was greater than the option count, resulting in no option showing on the scroll bar",
+        "check if join will succeed not allowing you to join the session",
+        "misc display rockstar id not showing as hidden when privacy mode is enabled",
+        "player panel not showing name as hidden when privacy mode is enabled",
+        "join blocking edits not saving",
+        "Stand vehicle loader not loading the correct colors",
+        "entity rate limits not saving changes made to default entries",
+        "presence event protection giving the option to redirect",
+        "block bullets & block projectiles not saving everyone toggle",
+        "tracked kick and crash not working when joining a session",
+        "some kicks not flagging for modder",
+        "panel settings not applying",
+        "disable phone calls not stopping call instantly",
+        "property block spamming notifies",
+        "net spam kick protection spamming notifies",
+        "some notifies not having correct \"a\"/\"an\"",
+        "display box having the wrong padding on the bottom"
+      ],
+      "Improved": [
+        "display box (now has more settings and an optional header)",
+        "panels (now has more settings)",
+        "join player (compressed into one option)",
+        "panel online status (now syncs instantly with other parts of the menu)",
+        "recent player sorting (sort by online)",
+        "online player badge (now shows session type)",
+        "crash protections",
+        "host queue player sorting (host now shows at top)",
+        "tracked player kick and crash",
+        "IP API (less likely to fail)",
+        "spoofed peer detection",
+        "DLC loading (now supports loading custom mods, simply place the files inside of \\dlc\\__replacements__\\, or \\mods\\ in the GTAV install dir)"
+      ],
+      "Moved": [
+        "panel saving to config",
+        "recent players, search players, player blocking, player tracking and artificial acquaintances to network player manager"
+      ]
+    }
+  },
+  {
+    "version": "5.1.0",
+    "product": "Grand Theft Auto V",
+    "date": "4/28/2024",
+    "changes": {
+      "Added": [
+        "desync backfire to block spoofers",
+        "change gender to account",
+        "rebind mouse input key",
+        "option to disable mouse input completely",
+        "asset hash to network toolbox",
+        "weaken host kicks to protections",
+        "profit maximization to transaction manager"
+      ],
+      "Fixed": [
+        "block spoofers only doing join timeout when \"Error\" was enabled",
+        "crash on load when having textures inside of auto load theme",
+        "rare crash on injection",
+        "\"allow joins from\" not disabling \"everyone\" when choosing another",
+        "display box color having dupe header option",
+        "player crew panel showing when player isn't in a crew",
+        "player crew panel showing corrupted/missing data",
+        "random crashes using ESP",
+        "tracked player default sorting being random",
+        "command box, hotkeys and mouse working while typing in chat or in social club overlay",
+        "check if join will succeed causing issues with joining",
+        "aggressive desync backfire causing everyone to flag for other modders while host",
+        "airstrike gun shooting more than it should",
+        "airstrike gun doing no damage",
+        "wardrobe editor not working",
+        "rare issue where majority of features don't work"
+      ]
+    }
+  },
+  {
+    "version": "6.0.0",
+    "product": "Grand Theft Auto V",
+    "date": "6/1/2024",
+    "changes": {
+      "Added": [
+        "LUA (documentation at https://docs.lexis.re/)",
+        "lock network control to player vehicle (prevent yourself and other cheaters from gaining control of a players vehicle) (Network > Players > Player > Vehicle > Lock Network Control)",
+        "suspension to vehicle visuals (Vehicle > Visuals)",
+        "tire width/radius to vehicle visuals (Vehicle > Visuals)",
+        "block entities to network chat advertise (Network > Text Chat > Advertise > Block Networking)",
+        "give RP to network chat advertise actions (Network > Text Chat > Advertise > Action > Give RP)",
+        "owned explosion to player explosions (Network > Player/Session > Hostile > Explosions)",
+        "orbital kills to weapon (spoof kills as orbital cannon) (Weapon > Weapon Mods > Orbital Kills)"
+      ],
+      "Fixed": [
+        "rare crash hovering a vehicle inside of spawner",
+        "rare crash loading a Stand vehicle",
+        "smash vehicle windows crashing",
+        "files not reading/writing when username is in another language",
+        "chat advertise messages not being reloaded when file is modified",
+        "mouse input key not applying",
+        "world/selected vehicle drive to me not working",
+        "clone selected vehicle not adding vehicle to manager",
+        "give player script host not working",
+        "teleport player to waypoint not working",
+        "teleport player not cleaning up entities",
+        "player crashes not cleaning up entities",
+        "kick player from seat",
+        "player steering not working sometimes",
+        "delete gun not working sometimes",
+        "spawner delete current vehicle sometimes not deleting current vehicle when spawned from garage",
+        "some vehicle options not allowing hotkeys"
+      ],
+      "Improved": [
+        "cheat detection",
+        "crash protections",
+        "spectate player (map now follows spectated player)",
+        "player crash names",
+        "kick player from vehicle",
+        "entity blocking (sync blocking is improved and you can now save/load per player)"
+      ]
+    }
+  },
+  {
+    "version": "6.0.1",
+    "product": "Grand Theft Auto V",
+    "date": "6/4/2024",
+    "changes": {
+      "Fixed": [
+        "major stability issues occuring since previous update",
+        "desync backfire causing the session to flag when used as host"
+      ]
+    }
+  },
+  {
+    "version": "6.0.2",
+    "product": "Grand Theft Auto V",
+    "date": "6/4/2024",
+    "changes": {
+      "Improved": [
+        "crash protections"
+      ]
+    }
+  },
+  {
+    "version": "6.0.3",
+    "product": "Grand Theft Auto V",
+    "date": "6/6/2024",
+    "changes": {
+      "Improved": [
+        "crash protections"
+      ],
+      "Removed": [
+        "detected money loop"
+      ]
+    }
+  },
+  {
+    "version": "2.1.4",
+    "product": "Launcher",
+    "date": "6/6/2024",
+    "changes": {
+      "Fixed": [
+        "issues with downloading files",
+        "load button being disabled after failure"
+      ]
+    }
+  },
+  {
+    "version": "7.0.0",
+    "product": "Grand Theft Auto V",
+    "date": "7/3/2024",
+    "changes": {
+      "Added": [
+        "hitmarker sounds to world",
+        "occlusion to misc disables",
+        "dripfeeding to misc disables",
+        "predator mode to misc",
+        "unlimited parachutes to weapon",
+        "settings to weapon mods",
+        "vehicle settings to weapon mods",
+        "force camera forward to network hostile",
+        "bypass profanity filter to chat",
+        "thousands separator (money) to misc disables",
+        "teleport into player apartment",
+        "matchmaking settings to network toolkit (min free slots, aim type, region, language)",
+        "passive income to network account",
+        "discord rpc to misc",
+        "max nightclub popularity to network account",
+        "max car meet popularity to network account"
+      ],
+      "Fixed": [
+        "crash viewing player list when loading into session from main menu",
+        "player stats not showing properly in panels",
+        "\"allow joins from\" disabling \"everyone\" when scrolling",
+        "korean text not showing properly",
+        "wardrobe saving showing as unsupported",
+        "cheat detection when sending spam text",
+        "sending chat messages through the text chat menu not working"
+      ],
+      "Improved": [
+        "chat commands (you can now use them for yourself)",
+        "snap aimbot (more reliable, works in vehicles)",
+        "player list generation (now works at start of transition)",
+        "modder detection (chat without typing event)",
+        "player badges (added controller symbol)",
+        "kick protections",
+        "crash protections"
+      ],
+      "Lua": {
+        "Added": [
+          "account.character() to get the current character",
+          "player:block_model(number hash, bool add) to block models from being created for a specific player"
+        ]
+      }
+    }
+  },
+  {
+    "version": "7.0.3",
+    "product": "Grand Theft Auto V",
+    "date": "7/3/2024",
+    "changes": {
+      "Fixed": [
+        "crash loading outfit files",
+        "crash using money methods before catalog init",
+        "crash using drive to me"
+      ]
+    }
+  },
+  {
+    "version": "7.1.1",
+    "product": "Grand Theft Auto V",
+    "date": "7/21/2024",
+    "changes": {
+      "Possibly fixed": [
+        "issues with phone not working"
+      ],
+      "Fixed": [
+        "free services not working",
+        "disable daily expenses not working",
+        "unlock outfits not working",
+        "unlock weapons not working",
+        "unlock hairstyles not working",
+        "unlock tattoos not working"
+      ],
+      "Lua": {
+        "Fixed": [
+          "game.basket_transaction not working"
+        ]
+      }
+    }
+  },
+  {
+    "version": "1.1.0",
+    "product": "Apex Legends",
+    "date": "11/12/2024",
+    "changes": {
+      "Added": [
+        "option to require full ads for triggerbot (none, snipers, all)",
+        "auto tap strafe to movement",
+        "wall jump to misc"
+      ],
+      "Fixed": [
+        "recoil control not working for care package Havoc",
+        "bunny hop delay not applying",
+        "triggerbot delay not applying",
+        "player glow showing as visible when they're not",
+        "message box error when inputting nothing into an input box"
+      ],
+      "Improved": [
+        "legit config settings (lowered to be more legit)"
+      ]
+    }
+  },
+  {
+    "version": "1.2.0",
+    "product": "Apex Legends",
+    "date": "12/7/2024",
+    "changes": {
+      "Added": [
+        "super glide",
+        "enemy glow only when visible",
+        "enemy glow only outlined"
+      ]
+    }
+  },
+  {
+    "version": "8.0.0",
+    "product": "Grand Theft Auto V",
+    "date": "1/22/2025",
+    "changes": {
+      "Added": [
+        "flags to \"Spawner > Object\"",
+        "set to current outfit to \"Network > Account > Outfits\"",
+        "transaction errors to \"Network > Notifications\"",
+        "player ambient pickup to \"Network > Notifications\"",
+        "\"Bottom Dollar Bounties\" to \"Network > Account > Unlocks > DLC\"",
+        "\"The Chop Shop\" to \"Network > Account > Unlocks > DLC\"",
+        "\"San Andreas Mercenaries\" to \"Network > Account > Unlocks > DLC\"",
+        "\"Agents of Sabotage\" to \"Network > Account > Unlocks > DLC\"",
+        "\"Agents of Sabotage\" to \"Spawner > Vehicle > DLC Vehicles\"",
+        "\"BANNED\" (BattlEye ban) badge to all options relating to RID",
+        "\"FAKE\" (fake friend) badge to all options relating to RID",
+        "left side option for boxed elements (information/hotkey, on by default)",
+        "ceo money to network player",
+        "copy appearance/outfit to all options relating to RID",
+        "override language to \"Settings > Config\"",
+        "\"Oppressor Mk II\" to \"Vehicle > Model Modifications > Physics\"",
+        "DLC selection and custom input to \"Weapons > Weapon Armory\"",
+        "bullet change to \"Vehicle > Weapons\"",
+        "color and thickness to \"Weapon > Visuals > Trails\"",
+        "scripts, audio, and configs to \"Network > File Manager\"",
+        "save and load to \"Settings > Config\"",
+        "folder support to file manager, themes, configs, translations, and weapon loadouts",
+        "force player into vehicle to \"Network > Player > Misc\"",
+        "justify to rectangles in \"Settings > Config > Primary\"",
+        "scroller width to \"Settings > Config > Primary\"",
+        "flags to rounded rectangles in \"Settings > Config > Primary\"",
+        "\"Stardust\" to \"Settings > Particles\"",
+        "reset button to \"Settings > Particles\"",
+        "none option to \"Settings > Particles\"",
+        "overwrite to \"Vehicle > Save & Load\"",
+        "E&E chameleon paints",
+        "search to \"Spawner > Vehicle\""
+      ],
+      "Fixed": [
+        "\"Network > Protections > Miscellaneous > Block Bullets/Projectiles\" blocking you from using vehicle weapons when a blocked player is a passenger",
+        "\"Network > Player > Give Wanted Level\" not working",
+        "\"Weapon > Modifications > Modifiers\" not saving to config",
+        "\"Vehicle > LSC > Respray > Primary/Secondary > Custom Color > Rainbow\" not working",
+        "\"Vehicle > LSC > Wheels > Wheel Tires > Smoke > Custom Color > Rainbow\" not working",
+        "\"Network > Player > Scripts\" showing when no scripts are loaded",
+        "\"Network > Player > Swipe Outfit\" not changing model",
+        "\"Player > Model Changer > Wardrobe > Remove Prop\" not removing selected prop",
+        "\"Weapon > Visuals > Trails > Bullet Trails\" not shooting from the weapon muzzle (also improved direction accuracy)",
+        "\"Player > Vision > Thermal Vision\" not working",
+        "garage importer importing into the wrong garage",
+        "only being able to search for an option once",
+        "remote stats not showing (cash, rank, etc.)",
+        "command box not being customizable",
+        "disable drip feeding not working",
+        "Lexis vehicles loading with incorrect mods in \"Vehicle > Save & Load\"",
+        "blacklisted players not working",
+        "increase vehicle impact not working",
+        "weapon orbital kills not working",
+        "call mechanic not working",
+        "issues with ESP crashing",
+        "active character in \"Network > Account\" breaking when only MP1 was valid",
+        "performance decrease when using Deluxo physics",
+        "disabling deluxo physics while not being in flight mode retaining flight mode state",
+        "spawner panels showing behind remote player panel",
+        "random crashes using wardrobe editor",
+        "loads of strings not being added to translation exports unless used first",
+        "give/remove weapon event always flagging for invalid weapon",
+        "\"The Shocker\" not being in the weapon lists",
+        "fake friends not being loaded until entering the submenu",
+        "some tire smoke not setting the color",
+        "most casino options not working",
+        "next session host detection not working",
+        "disable passive mode not working",
+        "deploy vehicle parachute not working on some vehicles",
+        "rainbow smoke color for LSC not working",
+        "run speed multiplier not working",
+        "vehicle spawner having missing DLC vehicle preview images",
+        "teleport player always teleporting to you if they're in a vehicle",
+        "HSV editor resetting H and S to 0 if V is 0",
+        "player search not showing last page if last page count was less than 10",
+        "cayo perico additional loot setting coke instead of gold",
+        "a few older DLCs not showing in \"Spawner > Vehicle > DLC Vehicles\"",
+        "rapid fire maxing out projectile pool",
+        "some badges not having correct padding",
+        "unlock outfits not working",
+        "unlock ammunition weapons not working",
+        "unlock hairstyles not working",
+        "unlock free services not working",
+        "no maintenance fees not working",
+        "turn to beast protection not working",
+        "hotkeys not saving",
+        "some Polish letters not showing correctly",
+        "noclip not disabling collision for vehicles",
+        "random crashing entering a submenu in \"Weapons > Weapon Armory\"",
+        "load states not showing when leaving and re-entering a submenu in \"Weapons > Weapon Armory\"",
+        "script warp kick false positive",
+        "disable entity collision not working for some entities",
+        "unlimited ammo not giving ammo on session change",
+        "color options ignoring requirement",
+        "peds ignore player not working",
+        "spawner manage entities not working properly when around other players",
+        "hair color changing to green when changing model back to a multiplayer model",
+        "some models showing as invisible when changing to them",
+        "clear area not being networked",
+        "\"Create Entity\" chat command not working for session"
+      ],
+      "Improved": [
+        "directory iteration (file views now have a directory tree)",
+        "wardrobe editor (added component names to tooltip)",
+        "ped model list (model changer, ped spawner, etc.)",
+        "notify stacking (duplicates will show a number instead of being dropped)",
+        "rainbow settings",
+        "join blocking responses",
+        "line particle rendering (less CPU intensive)",
+        "firework particle rendering (less CPU intensive)",
+        "hotkey system (bind multiple keys sequentially)",
+        "option search (added hierarchy to tooltips)",
+        "color picker presets (added 1566 colors)",
+        "autoload to use a dedicated config file (rather than the default config)",
+        "hotkey notifications (shows toggle state for number/combo toggles)",
+        "command input (added cursor)",
+        "protections (added bounty spam detection)",
+        "rate limits (added new options, new submenu layout)",
+        "menu design",
+        "notify design",
+        "renderer to fix issues with graphic driver crashes"
+      ],
+      "Removed": [
+        "unused translations from translation generation",
+        "default config loading in favor of save & load",
+        "force save config/hotkeys",
+        "Lua API (new API will be released in 8.1)"
+      ]
+    }
+  },
+  {
+    "version": "8.0.1",
+    "product": "Grand Theft Auto V",
+    "date": "1/23/2025",
+    "changes": {
+      "Fixed": [
+        "controller open key change not working",
+        "hotkeys executing while using command box input",
+        "\"Player > Vision > Thermal Vision\" staying enabled when disabled",
+        "some random crashes"
+      ],
+      "Removed": [
+        "self money related options"
+      ]
+    }
+  },
+  {
+    "version": "8.0.2",
+    "product": "Grand Theft Auto V",
+    "date": "1/25/2025",
+    "changes": {
+      "Added": [
+        "back money related options",
+        "delete to \"Vehicle > Save & Load\""
+      ],
+      "Fixed": [
+        "command box notify showing opposite states",
+        "default commands loading twice (showing error in log)",
+        "some options not loading from autoload in settings",
+        "default commands loading when a command save file exists",
+        "\"Network > Text Chat > Blacklist\" not working properly",
+        "crash entering \"Script Sound\" and \"Ticker Messages\" in \"Network > Protections > Limitations\"",
+        "delete not working in \"Network > Player Manager > Player Blocking\"",
+        "add not working in \"Network > Player Manager > Player Blocking\"",
+        "reset not working for position on \"Settings > Config > Display/Hotkey Box\""
+      ],
+      "Moved": [
+        "\"Player > Services\" to \"Network > Services\""
+      ]
+    }
+  },
+  {
+    "version": "9.1.0",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "10/28/2025",
+    "changes": {
+      "Added": [
+        "snow/rain Halloween to weathers",
+        "snow mist, sun, fog, sandstorm, day/night ratio and wetness to weather overrides"
+      ],
+      "Fixed": [
+        "garage listing not showing correct garages",
+        "garage importer not importing",
+        "certain spawn settings showing when spawning for another player",
+        "spawner sometimes not spawning for yourself after spawning for another player",
+        "cooldowns, idle kick, and a few disables not working",
+        "rare crash joining a session",
+        "crash searching for text input options that didn't have a default value",
+        "wardrobe editor crashing",
+        "blip teleport tab showing empty when no blips are on the map",
+        "respawn not giving back weapons",
+        "give/remove bounties not refreshing the tab",
+        "armory tints/components not notifying when a weapon isn't able to be modified",
+        "hotkey UI not looking how it should",
+        "custom input not repeating non-english keys when held down",
+        "custom input cursor blink while scrolling",
+        "rain/show overrides not having the correct current value"
+      ],
+      "Improved": [
+        "garage importer (now shows the vehicle in the garage without reloading online)",
+        "teleport to objective (now prioritizes the main objective)",
+        "theme grouping (created groups: options, header, footer, scroller, open tooltip)"
+      ],
+      "Lua": {
+        "Added": [
+          "reload script",
+          "script.call",
+          "log event"
+        ],
+        "Fixed": [
+          "require not working",
+          ".str crashing when reading a global string",
+          "script events not working properly",
+          "permissions not being set by default"
+        ],
+        "Improved": [
+          "sandboxing"
+        ]
+      }
+    }
+  },
+  {
+    "version": "1.0.1",
+    "product": "The Division 2",
+    "date": "10/29/2025",
+    "changes": {
+      "Fixed": [
+        "an issue with loading on Steam"
+      ]
+    }
+  },
+  {
+    "version": "9.2.0",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/6/2025",
+    "changes": {
+      "Added": [
+        "Network > Browsers > Find Hosts > Region",
+        "Network > Browsers > Find Hosts > Search Size",
+        "Network > Toolbox > Matchmaking > Magnet",
+        "panel to Network > Browsers",
+        "Settings > Themes > Fonts",
+        "Settings > Themes > Header > Title Padding (Y)",
+        "Settings > Themes > Panels > Remove Titles",
+        "Misc > Radio",
+        "Spawner > Ramps",
+        "more options to ESP",
+        "more options to Player > Animation",
+        "Weapon > Vehicle Shooter"
+      ],
+      "Fixed": [
+        "Network > Toolbox > Matchmaking not working as intended",
+        "Network > Browsers > Find Hosts rockstar ids not resolving to names",
+        "Network > Browsers > Find Hosts sometimes putting you into glitched solo sessions",
+        "Vehicle > Maintenance > Repair/Auto Repair not always working",
+        "crashing when using autoload theme",
+        "crash protections not working as intended",
+        "search not showing combo/number options",
+        "text alignment issue",
+        "player ESP jitter issue",
+        "scroll wheel not scrolling tabs",
+        "Network > Spoofing > Stats not syncing",
+        "Network > Players > x > Kick (Script Host Session State) not working",
+        "Network > Protections > Events not saving to config",
+        "Network > Protections > Limitations not saving to config",
+        "Cherax detecting some players as cheaters (garage dupe detection)",
+        "textures not resetting after changing between frame generation types",
+        "Spawner > Vehicle > DLC showing empty before loading in",
+        "Weapon > Weapon Armory > Tints/Components allowing you to enter with an invalid weapon",
+        "Player > Respawn not giving back weapons",
+        "Teleport > Save & Load > x > Delete not removing it from the list",
+        "rounded outlined UI elements showing an outline when thickness is 0",
+        "World > VFX > Drops color reset setting to 0,0,0,0",
+        "Network > Toolbox > Transactions > Saved not loading saved transactions",
+        "Vehicle > Los Santos Customs not having correct names"
+      ],
+      "Improved": [
+        "ESP tab (restructured)",
+        "search, now has a jump-to list of results",
+        "Network > Browsers > Find Hosts, now searches faster",
+        "performance",
+        "protections"
+      ],
+      "Removed": [
+        "Network > Account > Money, you can't be trusted"
+      ],
+      "Lua": {
+        "Added": [
+          "hotkey option type",
+          "util.create_job",
+          "text.font",
+          "gui.load_font",
+          "input.mouse",
+          "input.show_cursor",
+          "input.disable_input",
+          "input.mouse_position",
+          "input.is_mouse_within",
+          "events.event.scroll",
+          "events.event.key_press",
+          "events.event.char_press",
+          "dirs.exists",
+          "dirs.create",
+          "dirs.remove"
+        ],
+        "Fixed": [
+          "random crash entering created submenu"
+        ]
+      }
+    }
+  },
+  {
+    "version": "1.0.1",
+    "product": "Overwatch 2",
+    "date": "11/9/2025",
+    "changes": {
+      "Added": [
+        "FOV Modifier to Gameplay",
+        "Max Distance to Triggerbot"
+      ],
+      "Fixed": [
+        "an issue with visuals not rendering when entity rendering was enabled",
+        "an issue with the radar rendering on death",
+        "an issue with Projectile Speed Offset"
+      ]
+    }
+  },
+  {
+    "version": "1.1.1",
+    "product": "Overwatch 2",
+    "date": "11/10/2025",
+    "changes": {
+      "Added": [
+        "Kiriko Suzu to Defensive Abilities in Gameplay",
+        "Use FOV Scale to Radar",
+        "a notify when the menu is loaded with necessary information"
+      ],
+      "Fixed": [
+        "an issue with getting offsets",
+        "an issue with FOV Lines on the radar when using a higher FOV than allowed",
+        "an issue with OOF arrows & Warnings rendering on death"
+      ],
+      "Renamed": [
+        "Invisible target filter in Aim to Sombra Invis"
+      ]
+    }
+  },
+  {
+    "version": "1.1.2",
+    "product": "Overwatch 2",
+    "date": "11/10/2025",
+    "changes": {
+      "Fixed": [
+        "issues regarding the raycast system for Aim and Triggerbot",
+        "an issue with rendering player visuals",
+        "an issue with rendering OOF arrows"
+      ]
+    }
+  },
+  {
+    "version": "1.2.2",
+    "product": "Overwatch 2",
+    "date": "11/11/2025",
+    "changes": {
+      "Updated": [
+        "to latest version 2.19.1.0.143858"
+      ],
+      "Added": [
+        "Ultimate Window in Gameplay"
+      ],
+      "Changed": [
+        "menu toggle key to F4",
+        "Angle Delay Time value in the legit config to 50 from 25"
+      ]
+    }
+  },
+  {
+    "version": "1.2.3",
+    "product": "Overwatch 2",
+    "date": "11/12/2025",
+    "changes": {
+      "Fixed": [
+        "an issue with getting a target for Aim",
+        "various issues regarding the entity system",
+        "logical issues for players in Ultimate Window"
+      ],
+      "Changed": [
+        "some visual elements regarding Ultimate Window"
+      ]
+    }
+  },
+  {
+    "version": "9.3.0",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/13/2025",
+    "changes": {
+      "Added": [
+        "Miscellaneous > Disables > LSC Restrictions",
+        "Miscellaneous > Disables > Outfit Restrictions",
+        "Miscellaneous > Disables > Website Locked Vehicles"
+      ],
+      "Fixed": [
+        "protection false positives",
+        "random crash doing some missions",
+        "crash when using World > Nearby Entities",
+        "garage vehicle spawning not loading bulletproof state",
+        "protections not saving to config",
+        "open key not saving to config",
+        "Miscellaneous > Disables > Casino Region Lock not working",
+        "World > Nearby Entities crashing sometimes"
+      ],
+      "Improved": [
+        "performance",
+        "protections"
+      ],
+      "Moved": [
+        "Vehicle > Save & Load to Spawner > Vehicle > Save & Load"
+      ],
+      "Lua": {
+        "Added": [
+          "font param to gui.text_size",
+          "menu event completed (currently only used for hotkey type)"
+        ],
+        "Fixed": [
+          "usage of undefined variables/functions not throwing an error",
+          "input.mouse_position not returning anything",
+          "util.create_job blocking execution until completion",
+          "util.create_thread yield calls yielding the full script",
+          "gui.image_rotated having rotation in radians instead of degrees"
+        ],
+        "Improved": [
+          "option events, you can now use loops/yield inside"
+        ]
+      }
+    }
+  },
+  {
+    "version": "1.2.4",
+    "product": "Overwatch 2",
+    "date": "11/13/2025",
+    "changes": {
+      "Updated": [
+        "to latest version 2.19.1.0.144263"
+      ],
+      "Fixed": [
+        "an issue in Aim targeting where the target would be considered out of your FOV",
+        "a bug where players would have a 'neutral' option in Visual Colors"
+      ],
+      "Other": [
+        "Smoothing is now enabled by default in Aim"
+      ]
+    }
+  },
+  {
+    "version": "9.3.1",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/13/2025",
+    "changes": {
+      "Fixed": [
+        "garage importing crashing",
+        "spawning garage vehicles crashing",
+        "random crash joining a session"
+      ],
+      "Lua": {
+        "Added": [
+          "lexis.username()"
+        ],
+        "Fixed": [
+          "script errors crashing the game",
+          "script.call crashing when target called into a native that allocates memory"
+        ]
+      }
+    }
+  },
+  {
+    "version": "1.2.5",
+    "product": "Overwatch 2",
+    "date": "11/14/2025",
+    "changes": {
+      "Updated": [
+        "to latest version 2.19.1.0.144311"
+      ],
+      "Added": [
+        "Visible Only in Visuals"
+      ],
+      "Fixed": [
+        "an issue where Aim & Triggerbot would try finding a target while dead"
+      ]
+    }
+  },
+  {
+    "version": "9.3.3",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/16/2025",
+    "changes": {
+      "Fixed": [
+        "Network > Players > x > Hostile > Annoying Sounds crashing on enter",
+        "Spawner > Vehicle > Personal Vehicles crashing on enter",
+        "Spawner > Vehicle > Save & Load > Garage Importer crashing on enter",
+        "Network > Players > x > Vehicle > Garage Importer crashing on enter",
+        "crash joining session from corrupted player history",
+        "random crash joining session",
+        "crash using frame generation"
+      ],
+      "Lua": {
+        "Added": [
+          "vec3:dir() and scr_vec3:dir()",
+          "dirs.list(path, opt<ext>)",
+          "input.get_clipboard_text() & input.set_clipboard_text(text)"
+        ],
+        "Fixed": [
+          "option event param not working",
+          "pointer_scr_array not having a valid type"
+        ]
+      }
+    }
+  },
+  {
+    "version": "1.3.5",
+    "product": "Overwatch 2",
+    "date": "11/22/2025",
+    "changes": {
+      "Added": [
+        "Lerp Health to Visuals",
+        "Moria Fade to Defensive Abilities in Gameplay",
+        "Auto Discord in Gameplay"
+      ],
+      "Fixed": [
+        "an issue with projectile heroes smoothing a lot quicker than hitscan when using Aim",
+        "a bug with Auto Melee not working as intended",
+        "a bug where Shot Angle Tolerance would display when it shouldnt",
+        "various issues with Survival Methods not activating"
+      ],
+      "Changed": [
+        "Survival Health Threshold maximum from 100% to 75%"
+      ],
+      "Removed": [
+        "Tracer Recall from Defensive Abilities"
+      ]
+    }
+  },
+  {
+    "version": "1.3.6",
+    "product": "Overwatch 2",
+    "date": "11/22/2025",
+    "changes": {
+      "Fixed": [
+        "various issues with crash handling",
+        "features not working as intended"
+      ]
+    }
+  },
+  {
+    "version": "9.3.4",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/24/2025",
+    "changes": {
+      "Fixed": [
+        "some random crashes",
+        "spectate detection false flagging when in apartment"
+      ],
+      "Lua": {
+        "Fixed": [
+          "crash when using invalid script locals",
+          "crash when creating a job inside another job",
+          "most options inside of request crashing",
+          "native float params not being handled as floats",
+          "script event float params not being handled as floats",
+          "crashing when using pointer_X results as params"
+        ]
+      }
+    }
+  },
+  {
+    "version": "1.3.7",
+    "product": "Overwatch 2",
+    "date": "11/24/2025",
+    "changes": {
+      "Reworked": [
+        "the way bone positions are retrieved, resulting in better performance",
+        "visual appearance for Ultimate Window in Gameplay"
+      ],
+      "Changed": [
+        "the behavior of Ready Only in Ultimate Window to show ultimates greater than or equal to 90%"
+      ],
+      "Removed": [
+        "Kiriko and Ana Survival Methods",
+        "Configs slightly modified, due to this any current configs are outdated"
+      ]
+    }
+  },
+  {
+    "version": "9.3.5",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/25/2025",
+    "changes": {
+      "Fixed": [
+        "random crashing caused by 9.3.4"
+      ]
+    }
+  },
+  {
+    "version": "1.4.7",
+    "product": "Overwatch 2",
+    "date": "11/25/2025",
+    "changes": {
+      "Updated": [
+        "to latest version 2.19.1.1.144266"
+      ],
+      "Added": [
+        "Transcendence and Primal Rage to Defensive Abilities in Gameplay"
+      ],
+      "Changed": [
+        "Auto Melee triggering logic, which should perform more accurately"
+      ],
+      "Fixed": [
+        "a bug with getting an objects root origin causing it to render improperly",
+        "an issue with Auto Discord attempting to trigger on friendlies"
+      ],
+      "Renamed": [
+        "Reaper Fade to Shadow Step in Defensive Abilities"
+      ]
+    }
+  },
+  {
+    "version": "1.5.0",
+    "product": "Overwatch 2",
+    "date": "11/26/2025",
+    "changes": {
+      "Added": [
+        "Dynamic FOV to Aim",
+        "Discord Delay in Gameplay",
+        "Auto Genji Dash in Gameplay",
+        "support for the new hero \"Vendetta\""
+      ],
+      "Fixed": [
+        "a crash caused by Auto Melee"
+      ],
+      "Enabled": [
+        "Junker Queen & Mei functionality for Triggerbot"
+      ],
+      "Combined": [
+        "automated actions into a single function, resulting in better performance"
+      ]
+    }
+  }
+]
+ 
