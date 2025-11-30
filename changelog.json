@@ -1413,6 +1413,51 @@
         "Stability improvements"
       ]
     }
+  },
+  {
+    "version": "9.4.0",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/28/2025",
+    "changes": {
+      "Added": [
+        "Header Padding to display/hotkey box",
+        "World > Nearby Entities > Ped > Populate",
+        "World > Nearby Entities > Vehicle > Populate",
+        "`CTRL+S` bind for saving default config (automatically added to autoload if nothing is set)"
+      ],
+      "Fixed": [
+        "Network > Protections > Limitations not working",
+        "Teleport > Navigation & Transport > Personal Vehicle not working",
+        "World > Nearby Entities > Ped > Kill crashing",
+        "Miscellaneous > Camera > Field of View causing visual distortions",
+        "crashing from invalid textures",
+        "triggerbot not working on players",
+        "input sometimes not working",
+        "some options taking a few seconds to execute",
+        "text scaling causing a blur",
+        "some UI elements not having correct padding",
+        "native menu sounds not working (open, close, scroll, etc.)",
+        "player interior check not working as intended"
+      ],
+      "Improved": [
+        "crash protections"
+      ],
+      "Lua": {
+        "Fixed": [
+          "`pointer_bool`, `pointer_float` and `pointer_scr_array` free() crashing"
+        ]
+      }
+    }
+  },
+  {
+    "version": "9.4.1",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "11/29/2025",
+    "changes": {
+      "Fixed": [
+        "crash on injection for CN users"
+      ]
+    }
   }
 ]
  
