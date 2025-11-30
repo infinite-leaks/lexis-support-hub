@@ -1396,6 +1396,23 @@
         "automated actions into a single function, resulting in better performance"
       ]
     }
+  },
+  {
+    "version": "1.5.1",
+    "product": "Overwatch 2",
+    "date": "11/26/2025",
+    "changes": {
+      "Fixed": [
+        "various issues regarding Wrecking Ball rendering & targeting",
+        "an issue with Require Aiming in Triggerbot, where it would continue shooting after you lost the target",
+        "Wait for Charge not working on Illari",
+        "an issue where players would not be recognized"
+      ],
+      "Improved": [
+        "Performance improvements regarding local player data",
+        "Stability improvements"
+      ]
+    }
   }
 ]
  
