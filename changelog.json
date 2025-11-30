@@ -1423,7 +1423,7 @@
         "Header Padding to display/hotkey box",
         "World > Nearby Entities > Ped > Populate",
         "World > Nearby Entities > Vehicle > Populate",
-        "`CTRL+S` bind for saving default config (automatically added to autoload if nothing is set)"
+        "CTRL+S bind for saving default config (automatically added to autoload if nothing is set)"
       ],
       "Fixed": [
         "Network > Protections > Limitations not working",
@@ -1461,3 +1461,4 @@
   }
 ]
  
+
