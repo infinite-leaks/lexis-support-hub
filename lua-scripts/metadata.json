@@ -2,5 +2,9 @@
   "casino lucky wheel rigging cars.lua": {
     "author": "melonarmy122",
     "description": "Rigs the casino lucky wheel. Use before spinning to win the podium vehicle or a custom mystery car. After the first podium win, subsequent wins grant 20k RP. Recommended to use only once per day. Mystery cars have $0 sell value."
+  },
+  "HeistToolFinal.lua": {
+    "author": "melonarmy122",
+    "description": "Heist editor skidded from decompiled scripts and everyone in existence, made by myself."
   }
 }
