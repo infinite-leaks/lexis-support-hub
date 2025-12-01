@@ -10,5 +10,9 @@
   "Extras V2.lua": {
     "author": "Nexus (@nexus.dc)",
     "description": "Heist Editor (Enhanced)"
+  },
+  "Extras.lua": {
+    "author": "lrxxh & piuro",
+    "description": "Silent Night Heists Manager Lexis Port [SKID]. Credits: https://github.com/SilentSalo/SilentNight. Ported by @lrxxh & @piuro with the help of: Derkek, melonarmy122. Testers: Derkek, 223, camera, Plex, Nexus."
   }
 }
