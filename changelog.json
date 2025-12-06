@@ -1452,7 +1452,7 @@
   {
     "version": "1.5.2",
     "product": "Overwatch 2",
-    "date": "12/8/2025",
+    "date": "12/6/2025",
     "changes": {
       "Improved": [
         "Slight improvements to projectile prediction",
@@ -1484,3 +1484,4 @@
   }
 ]
  
+
