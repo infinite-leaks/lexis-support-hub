@@ -1415,6 +1415,29 @@
     }
   },
   {
+    "version": "1.5.2",
+    "product": "Overwatch 2",
+    "date": "12/8/2025",
+    "changes": {
+      "Improved": [
+        "Slight improvements to projectile prediction",
+        "Increased the gap separator between friendlies/enemies in Ultimate Window"
+      ],
+      "Fixed": [
+        "an issue that caused player health to appear as 0 when using Lerp Health",
+        "an issue with outlines sometimes rendering on random entities",
+        "logical issues when using Legit mode on outlines",
+        "various issues regarding hitboxes"
+      ],
+      "Changed": [
+        "Dynamic Smoothing Type logic",
+        "default Legit config to use Crosshair instead of Priority as Aim Method",
+        "default Legit config First Shot Delay from 20 to 65",
+        "rendering logic for Head Dot, minimum size is now [max size - 1]"
+      ]
+    }
+  },
+  {
     "version": "9.4.0",
     "product": "Grand Theft Auto V: Enhanced",
     "date": "11/28/2025",
@@ -1423,7 +1446,7 @@
         "Header Padding to display/hotkey box",
         "World > Nearby Entities > Ped > Populate",
         "World > Nearby Entities > Vehicle > Populate",
-        "CTRL+S bind for saving default config (automatically added to autoload if nothing is set)"
+        "`CTRL+S` bind for saving default config (automatically added to autoload if nothing is set)"
       ],
       "Fixed": [
         "Network > Protections > Limitations not working",
@@ -1461,4 +1484,3 @@
   }
 ]
  
-
