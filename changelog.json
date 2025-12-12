@@ -1452,7 +1452,7 @@
   {
     "version": "1.5.2",
     "product": "Overwatch 2",
-    "date": "12/6/2025",
+    "date": "12/8/2025",
     "changes": {
       "Improved": [
         "Slight improvements to projectile prediction",
@@ -1481,7 +1481,51 @@
         "crash on injection for CN users"
       ]
     }
+  },
+  {
+    "version": "1.5.3",
+    "product": "Overwatch 2",
+    "date": "12/11/2025",
+    "changes": {
+      "Updated": [
+        "to latest version 2.20.0.0.145051"
+      ],
+      "Improved": [
+        "Prediction now works for Orisa's major perk \"Charged Javelin\""
+      ],
+      "Fixed": [
+        "cases where B.O.B. would be rendered as a player",
+        "Various fixes regarding the entity system"
+      ],
+      "Other": [
+        "Launcher changes"
+      ],
+      "Notes": [
+        "TO FULLY UNLOAD LEXIS COMPONENTS, PLEASE RUN THE LAUNCHER AGAIN AFTER YOU GET OFF THE GAME!"
+      ]
+    }
+  },
+  {
+    "version": "9.4.2",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "12/11/2025",
+    "changes": {
+      "Updated": [
+        "to latest game update"
+      ],
+      "Fixed": [
+        "CTRL+S bind working with menu closed"
+      ],
+      "Lua": {
+        "Fixed": [
+          "color crashing when a param is missing",
+          "game.guid_from_entity returning memory_address"
+        ],
+        "Removed": [
+          "restrictions for load and similar function"
+        ]
+      }
+    }
   }
 ]
  
-
