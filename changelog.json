@@ -1526,6 +1526,26 @@
         ]
       }
     }
+  },
+  {
+    "version": "1.6.0",
+    "product": "Overwatch 2",
+    "date": "12/12/2025",
+    "changes": {
+      "Updated": [
+        "to latest version 2.20.0.0.145112"
+      ],
+      "Added": [
+        "Prediction Point to Visuals"
+      ],
+      "Fixed": [
+        "Various fixes regarding triggerbot targeting players",
+        "Various fixes regarding the entity system"
+      ],
+      "Notes": [
+        "TO FULLY UNLOAD LEXIS COMPONENTS, PLEASE RUN THE LAUNCHER AGAIN AFTER YOU GET OFF THE GAME!"
+      ]
+    }
   }
 ]
  
