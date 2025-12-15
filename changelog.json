@@ -1546,6 +1546,22 @@
         "TO FULLY UNLOAD LEXIS COMPONENTS, PLEASE RUN THE LAUNCHER AGAIN AFTER YOU GET OFF THE GAME!"
       ]
     }
+  },
+  {
+    "version": "1.7.0",
+    "product": "Overwatch 2",
+    "date": "12/14/2025",
+    "changes": {
+      "Added": [
+        "Visible Only to OOF Arrows",
+        "Recall to Defensive Abilities"
+      ],
+      "Fixed": [
+        "aim & triggerbot not working properly when not using Ignore Shields filter",
+        "an issue where targets wouldnt be ignored when they should be",
+        "an issue where Auto Melee & Auto Genji Dash wouldnt work as intended"
+      ]
+    }
   }
 ]
  
