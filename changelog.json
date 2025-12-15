@@ -1562,6 +1562,17 @@
         "an issue where Auto Melee & Auto Genji Dash wouldnt work as intended"
       ]
     }
+  },
+  {
+    "version": "1.7.1",
+    "product": "Overwatch 2",
+    "date": "12/15/2025",
+    "changes": {
+      "Fixed": [
+        "an issue where some users would crash when spawning"
+      ]
+    }
   }
 ]
+ 
  
