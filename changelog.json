@@ -1572,6 +1572,24 @@
         "an issue where some users would crash when spawning"
       ]
     }
+  },
+  {
+    "version": "9.4.3",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "12/17/2025",
+    "changes": {
+      "Updated": [
+        "to latest version"
+      ],
+      "Lua": {
+        "Fixed": [
+          "certain natives hanging the game (SET_PLAYER_MODEL, etc.)",
+          "native invoking causing a crash over time",
+          "scripts sometimes crashing after an error on load",
+          "scripts not being unloaded automatically when no type of data is registered (allowing run-once scripts)"
+        ]
+      }
+    }
   }
 ]
  
