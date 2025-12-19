@@ -1590,6 +1590,34 @@
         ]
       }
     }
+  },
+  {
+    "version": "9.5.0",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "12/18/2025",
+    "changes": {
+      "Added": [
+        "new Lua documentation (docs.lexis.re)"
+      ],
+      "Fixed": [
+        "cached vehicle textures not being rebuilt on graphic changes (causing a crash scrolling vehicle spawner)",
+        "theme textures not being rebuilt on graphic changes",
+        "scrolling sometimes scrolling for a few seconds"
+      ],
+      "Lua": {
+        "Added": [
+          "http.fetch_async",
+          "script.force_host",
+          "player:modify_outgoing_node"
+        ],
+        "Fixed": [
+          "random crash reloading scripts",
+          "input.key not working as intended",
+          "justified text not working as intended",
+          "not being able to use vec2 as an invoke param"
+        ]
+      }
+    }
   }
 ]
  
