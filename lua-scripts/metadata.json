@@ -14,5 +14,9 @@
   "Extras.lua": {
     "author": "lrxxh & piuro",
     "description": "Silent Night Heists Manager Lexis Port [SKID]. Credits: https://github.com/SilentSalo/SilentNight. Ported by @lrxxh & @piuro with the help of: Derkek, melonarmy122. Testers: Derkek, 223, camera, Plex, Nexus."
+  },
+  "UltimateHeitsControl.lua": {
+    "author": "Danny",
+    "description": "Posted by @melonarmy122 and @𝐗𝐈𝐓𝐙 using my base. FYI Pete stole from this and decided to sell it for his own personal gain. We do not condone selling code that isn't yours. Enjoy."
   }
 }
