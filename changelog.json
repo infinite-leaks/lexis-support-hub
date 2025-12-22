@@ -1618,6 +1618,19 @@
         ]
       }
     }
+  },
+  {
+    "version": "9.5.1",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "12/21/2025",
+    "changes": {
+      "Fixed": [
+        "net complaint kick crashing",
+        "blacklisted player manager crashing",
+        "next host not being correct",
+        "vehicle spawn preview crashing"
+      ]
+    }
   }
 ]
  
