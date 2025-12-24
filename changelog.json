@@ -1631,6 +1631,43 @@
         "vehicle spawn preview crashing"
       ]
     }
+  },
+  {
+    "version": "9.5.2",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "12/24/2025",
+    "changes": {
+      "Fixed": [
+        "random crash searching for options",
+        "random crash changing graphic settings",
+        "random crash teleporting from one side of the map to the other"
+      ]
+    }
+  },
+  {
+    "version": "1.8.0",
+    "product": "Overwatch 2",
+    "date": "12/24/2025",
+    "changes": {
+      "Added": [
+        "Autobone Bones selection as a customizable option instead of a static value in Aim",
+        "Bone Switch Delay as a customizable option instead of a static value in Aim",
+        "Text Scale to Visuals",
+        "hex input field to color picker with copy/paste functionality. Right clicking on the hex color copies the color, doing the same on the color picker pastes the copied color",
+        "some missing UI colors from the color picker"
+      ],
+      "Fixed": [
+        "camera becoming invalid causing features to not work (hopefully)",
+        "player controlled/spawned objects incorrectly registering as players",
+        "aimbot & triggerbot continuing to target after the target was dead/lost",
+        "Torbjorn projectile speed detection to properly handle switching to his hammer",
+        "GUI textbox input not respecting keyboard layout (AZERTY, DVORAK, etc. now work correctly)"
+      ],
+      "Improved": [
+        "Stability improvements",
+        "Performance improvements regarding local player data"
+      ]
+    }
   }
 ]
  
