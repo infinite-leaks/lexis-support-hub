@@ -1668,6 +1668,20 @@
         "Performance improvements regarding local player data"
       ]
     }
+  },
+  {
+    "version": "1.8.1",
+    "product": "Overwatch 2",
+    "date": "12/26/2025",
+    "changes": {
+      "Added": [
+        "Per hero aim configs enabled"
+      ],
+      "Improved": [
+        "Stability improvements",
+        "Performance improvements regarding entity data"
+      ]
+    }
   }
 ]
  
