@@ -1670,20 +1670,6 @@
     }
   },
   {
-    "version": "1.8.1",
-    "product": "Overwatch 2",
-    "date": "12/26/2025",
-    "changes": {
-      "Added": [
-        "Per hero aim configs enabled"
-      ],
-      "Improved": [
-        "Stability improvements",
-        "Performance improvements regarding entity data"
-      ]
-    }
-  },
-  {
     "version": "9.5.3",
     "product": "Grand Theft Auto V: Enhanced",
     "date": "12/26/2025",
@@ -1704,6 +1690,20 @@
           "crash using input.show_cursor"
         ]
       }
+    }
+  },
+  {
+    "version": "1.8.1",
+    "product": "Overwatch 2",
+    "date": "12/26/2025",
+    "changes": {
+      "Added": [
+        "Per hero aim configs enabled"
+      ],
+      "Improved": [
+        "Stability improvements",
+        "Performance improvements regarding entity data"
+      ]
     }
   }
 ]
