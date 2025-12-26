@@ -1682,6 +1682,29 @@
         "Performance improvements regarding entity data"
       ]
     }
+  },
+  {
+    "version": "9.5.3",
+    "product": "Grand Theft Auto V: Enhanced",
+    "date": "12/26/2025",
+    "changes": {
+      "Fixed": [
+        "Player > Model Changer selected category not resetting option index",
+        "World > Waypoint > Light Beam > Color rainbow not working",
+        "rainbow not working on colors with low saturation/value",
+        "limitation protections not working",
+        "cage protections not working",
+        "options querying accounts not working (player tracking, etc.)",
+        "protection false positives"
+      ],
+      "Lua": {
+        "Fixed": [
+          "crash when accessing an invalid global",
+          "crash using gui.text_size with invalid text",
+          "crash using input.show_cursor"
+        ]
+      }
+    }
   }
 ]
  
