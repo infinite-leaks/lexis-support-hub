@@ -1,0 +1,29 @@
+{
+    "steamProfile": "https://steamcommunity.com/id/hbkvxncent/",
+    "games": [
+        {
+            "name": "Fortnite",
+            "image": "fortnite.webp",
+            "hours": 1240,
+            "started": "2019-06-12"
+        },
+        {
+            "name": "GTA V",
+            "image": "gtalogo.png",
+            "hours": 860,
+            "started": "2018-02-01"
+        },
+        {
+            "name": "Overwatch 2",
+            "image": "https://raw.githubusercontent.com/infinite-leaks/lexis-support-hub/main/assets/overwatch%202%20logo.webp",
+            "hours": 140,
+            "started": "2025-12-10"
+        },
+        {
+            "name": "Red Dead Redemption 2",
+            "image": "https://raw.githubusercontent.com/infinite-leaks/lexis-support-hub/main/assets/rd2.webp",
+            "hours": 320,
+            "started": "2023-04-03"
+        }
+    ]
+}
