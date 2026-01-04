@@ -1706,6 +1706,53 @@
       ]
     }
   }
+,
+  {
+    "version": "1.9.0",
+    "product": "Overwatch 2",
+    "date": "1/4/2026",
+    "changes": {
+      "Added": [
+        "Hitscan Smoothing Scale and Projectile Smoothing Scale as customizable options in Aim",
+        "Mei Cryo-freeze & Orisa Fortify to Defensive Abilities in Gameplay",
+        "Dynamic Color to Outlines in Visuals (colors outlines based on player health from green to red)",
+        "Colors tab in Gameplay with customizable color options for Ultimate Window"
+      ],
+      "Removed": [
+        "the Multipoint system from Aim, instead combining it with the Safepoints system"
+      ],
+      "Improved": [
+        "Safepoints system and added 2 additional new points for 6 points (+1 for center point, 7 total)",
+        "rendering Prediction Point in Visuals by using lerping to reduce snappy movement"
+      ],
+      "Changed": [
+        "Dynamic smoothing type angle threshold from 7.0 to 1.2 degrees for better performance"
+      ],
+      "Fixed": [
+        "cases where players would be labeled as not visible when they were",
+        "an issue where Mauga OVERRUN ability would be cancelled when using triggerbot or autoshoot",
+        "Genji & Roadhog being treated as projectile when using their ultimates",
+        "D.Va being treated as hitscan when demeched",
+        "Ramattra & Mercy weapon state not properly switching between weapon modes",
+        "Widowmaker triggerbot resetting charge when not scoped",
+        "duplicate center aim points being generated on the aim target",
+        "a logic issue with aim state evaluation",
+        "Orisa autoshoot overheating weapon by implementing heat management (88%)",
+        "Prediction Point getting data & rendering on friendlies",
+        "Defensive Abilities that were binded to SHIFT not being triggered",
+        "Sombra invisibility Ignore Filter in Aim not working",
+        "an issue where automated actions would try to work on untargetable entities",
+        "Wrecking Ball positions desyncing/becoming invalid when switching forms",
+        "potential crash from accessing hitboxes that dont exist",
+        "Various fixes regarding aimbot"
+      ],
+      "Optimized": [
+        "aim target position calculation",
+        "Stability improvements",
+        "Performance improvements"
+      ]
+    }
+  }
 ]
  
  
