@@ -16,13 +16,13 @@
         {
             "name": "Overwatch 2",
             "image": "https://raw.githubusercontent.com/infinite-leaks/lexis-support-hub/main/assets/overwatch%202%20logo.webp",
-            "hours": 89.4,
+            "hours": 89.9,
             "started": "2025-12-10"
         },
         {
             "name": "Red Dead Redemption 2",
             "image": "https://raw.githubusercontent.com/infinite-leaks/lexis-support-hub/main/assets/rd2.webp",
-            "hours": 24.4,
+            "hours": 26.5,
             "started": "2025-04-03"
         },
         {
@@ -33,6 +33,7 @@
         }
     ]
 }
+
 
 
 
