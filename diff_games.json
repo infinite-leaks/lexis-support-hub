@@ -1,0 +1,24 @@
+{
+    "steamProfile": "https://steamcommunity.com/id/hbkvxncent/",
+    "games": [
+        {
+            "name": "Fortnite",
+            "image": "fortnite.webp",
+            "hours": 254.6,
+            "started": "2019-06-12"
+        },
+        {
+            "name": "GTA V",
+            "image": "gtalogo.png",
+            "hours": 101.1,
+            "started": "2018-02-01"
+        },
+     
+        {
+            "name": "Hogwarts Legacy",
+            "image": "https://raw.githubusercontent.com/infinite-leaks/lexis-support-hub/main/assets/hogwarts-legacy-logo.png",
+            "hours": 7.8,
+            "started": "2025-02-10"
+        }
+    ]
+}
