@@ -1753,6 +1753,34 @@
       ]
     }
   }
+,
+  {
+    "version": "9.6.0",
+    "product": "Grand Theft Auto V: Enhanced/Legacy",
+    "date": "1/6/2026",
+    "changes": {
+      "Added": [
+        "automatic ped/vehicle spam cleanup (local and networked)",
+        "\"Scripts > x > No Yield Terminate\""
+      ],
+      "Fixed": [
+        "model changer not working after a failed model request",
+        "weapon armory textures not loading",
+        "UI gaps",
+        "\"Network > Account > Single Player\" crashing when inputting a large number",
+        "\"Settings > Translations > x > Load\" not working",
+        "\"Settings > Translations > x > Update\" not working",
+        "\"Settings > Translations > x > Overwrite\" not working",
+        "crashing on load with a PC username containing Unicode characters"
+      ],
+      "Lua": {
+        "Fixed": [
+          "util.remove_thread crashing",
+          "gui.text crashing with a font that was created on the same frame"
+        ]
+      }
+    }
+  }
 ]
  
  
