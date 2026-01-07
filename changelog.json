@@ -1781,6 +1781,25 @@
       }
     }
   }
+,
+  {
+    "version": "9.6.3",
+    "product": "Grand Theft Auto V — Both Versions Updated",
+    "date": "1/7/2026",
+    "changes": {
+      "Fixed": [
+        "\"Player > Model Changer > Wardrobe > Account Outfits\" not working",
+        "\"Weapon > Weapon Mods > Vehicle Settings\" crashing",
+        "\"Weapon > Weapon Mods > Aimbot > Position Prediction\" crashing when in a vehicle with no weapon in hand",
+        "hotkeys running while chat is open",
+        "vehicle steering malfunctions while passenger",
+        "menu UI not loading sometimes on first injection(?)"
+      ],
+      "Improved": [
+        "crash protections"
+      ]
+    }
+  }
 ]
  
  
