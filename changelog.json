@@ -1800,6 +1800,34 @@
       ]
     }
   }
+,
+  {
+    "version": "1.9.1",
+    "product": "Overwatch 2",
+    "date": "1/9/2026",
+    "changes": {
+      "Updated": [
+        "to latest version 2.20.1.0.145326"
+      ],
+      "Fixed": [
+        "velocity not accounting for moving parent objects such as Lifeweaver petal or other moving platforms",
+        "an issue where Bastion self heal would be cancelled when using triggerbot or autoshoot",
+        "triggerbot attempting to work when playing Lifeweaver",
+        "Mercy hitboxes being registered incorrectly",
+        "Ana not being registered as projectile when unscoped",
+        "some potential crashes"
+      ],
+      "Improved": [
+        "Increased the speed of Prediction Point lerping in Visuals",
+        "Configs now save/load Radar and Ultimate Window misc settings such as positions",
+        "Stability improvements",
+        "Performance improvements"
+      ],
+      "Notes": [
+        "TO FULLY UNLOAD LEXIS COMPONENTS, PLEASE RUN THE LAUNCHER AGAIN AFTER YOU GET OFF THE GAME!"
+      ]
+    }
+  }
 ]
  
  
