@@ -4,7 +4,7 @@
         {
             "name": "Fortnite",
             "image": "fortnite.webp",
-            "hours": 254.6,
+            "hours": 255.19,
             "started": "2019-06-12"
         },
         {
@@ -17,7 +17,7 @@
         {
             "name": "Hogwarts Legacy",
             "image": "https://raw.githubusercontent.com/infinite-leaks/lexis-support-hub/main/assets/hogwarts-legacy-logo.png",
-            "hours": 7.8,
+            "hours": 10.6,
             "started": "2025-02-10"
         }
     ]
