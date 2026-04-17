@@ -161,7 +161,7 @@
         "spawn personal vehicle as copy",
         "spoof models to DLC loader (allows other players to see a valid model in game)",
         "tooltip indications for when an option can have a hotkey applied, or a custom input box opened",
-        "paste color from clipboard (formats: '#FF0000', '#FF0000FF', 'FF0000', 'FF0000FF' '255 255 255' '255 255 255 255' '255, 255, 255' '255, 255, 255, 255' '340.23, 12.33, 45.32' '340.23 12.33 45.32' '217°, 73%, 96%')"
+        "paste color from clipboard (formats: '#FF0000', '#FF0000FF', 'FF0000', 'FF0000FF' '255 255 255' '255 255 255 255' '255, 255, 255' '255, 255, 255, 255' '340.23, 12.33, 45.32' '340.23 12.33 45.32' '217\u00b0, 73%, 96%')"
       ],
       "Fixed": [
         "scroll bar settings showing the preview scroll bar when toggled off",
@@ -1705,8 +1705,7 @@
         "Performance improvements regarding entity data"
       ]
     }
-  }
-,
+  },
   {
     "version": "1.9.0",
     "product": "Overwatch 2",
@@ -1752,11 +1751,10 @@
         "Performance improvements"
       ]
     }
-  }
-,
+  },
   {
     "version": "9.6.0",
-    "product": "Grand Theft Auto V — Both Versions Updated",
+    "product": "Grand Theft Auto V \u2014 Both Versions Updated",
     "date": "1/6/2026",
     "changes": {
       "Added": [
@@ -1780,11 +1778,10 @@
         ]
       }
     }
-  }
-,
+  },
   {
     "version": "9.6.3",
-    "product": "Grand Theft Auto V — Both Versions Updated",
+    "product": "Grand Theft Auto V \u2014 Both Versions Updated",
     "date": "1/7/2026",
     "changes": {
       "Fixed": [
@@ -1799,8 +1796,7 @@
         "crash protections"
       ]
     }
-  }
-,
+  },
   {
     "version": "1.9.1",
     "product": "Overwatch 2",
@@ -1827,7 +1823,18 @@
         "TO FULLY UNLOAD LEXIS COMPONENTS, PLEASE RUN THE LAUNCHER AGAIN AFTER YOU GET OFF THE GAME!"
       ]
     }
+  },
+  {
+    "version": "1.1.0",
+    "product": "The Division 2",
+    "date": "4/13/2026 3:15pm",
+    "changes": {
+      "Added": [
+        "rarity filters for prototype and immersion"
+      ],
+      "Improved": [
+        "infinite ammo"
+      ]
+    }
   }
 ]
- 
- 
