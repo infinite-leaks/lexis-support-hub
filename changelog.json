@@ -1836,5 +1836,36 @@
         "infinite ammo"
       ]
     }
+  },
+  {
+    "version": "9.7.0",
+    "product": "Grand Theft Auto V",
+    "date": "5/13/2026",
+    "changes": {
+      "Improved": [
+        "Los Santos Customs",
+        "network player layout",
+        "UI"
+      ],
+      "Changed": [
+        "Moved \"Settings > Privacy Mode\" to \"Network > Privacy\""
+      ],
+      "Lua - docs.lexis.re": {
+        "Added": [
+          "`menu.find`, `menu.iter`",
+          "`player.ped_ptr`, `player.entity_ptr`, `player.vehicle_ptr`, `player.weapon_ptr`",
+          "`ros` table",
+          "`option:invoke`",
+          "`type`, `sub_type`, `slider` for registered options",
+          "`submenu.first_option_index` to get the index of the first non-submenu option",
+          "`game.is_ptfx_playing_at_coords`",
+          "optional `insert_at` param for option creation"
+        ],
+        "Renamed": [
+          "`menu.type` to `menu.slider`",
+          "`account.rockstar_id` to `account.rid`"
+        ]
+      }
+    }
   }
 ]
