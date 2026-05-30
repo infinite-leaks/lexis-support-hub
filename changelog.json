@@ -161,7 +161,7 @@
         "spawn personal vehicle as copy",
         "spoof models to DLC loader (allows other players to see a valid model in game)",
         "tooltip indications for when an option can have a hotkey applied, or a custom input box opened",
-        "paste color from clipboard (formats: '#FF0000', '#FF0000FF', 'FF0000', 'FF0000FF' '255 255 255' '255 255 255 255' '255, 255, 255' '255, 255, 255, 255' '340.23, 12.33, 45.32' '340.23 12.33 45.32' '217\u00b0, 73%, 96%')"
+        "paste color from clipboard (formats: '#FF0000', '#FF0000FF', 'FF0000', 'FF0000FF' '255 255 255' '255 255 255 255' '255, 255, 255' '255, 255, 255, 255' '340.23, 12.33, 45.32' '340.23 12.33 45.32' '217°, 73%, 96%')"
       ],
       "Fixed": [
         "scroll bar settings showing the preview scroll bar when toggled off",
@@ -1754,7 +1754,7 @@
   },
   {
     "version": "9.6.0",
-    "product": "Grand Theft Auto V \u2014 Both Versions Updated",
+    "product": "Grand Theft Auto V — Both Versions Updated",
     "date": "1/6/2026",
     "changes": {
       "Added": [
@@ -1781,7 +1781,7 @@
   },
   {
     "version": "9.6.3",
-    "product": "Grand Theft Auto V \u2014 Both Versions Updated",
+    "product": "Grand Theft Auto V — Both Versions Updated",
     "date": "1/7/2026",
     "changes": {
       "Fixed": [
@@ -2003,6 +2003,56 @@
           "file/directory operations rejecting valid paths within the Lexis folder"
         ]
       }
+    }
+  },
+  {
+    "version": "10.2.0",
+    "product": "Grand Theft Auto V",
+    "date": "5/29/2026",
+    "changes": {
+      "Fixed": [
+        "\"Network > Account > Free Shopping\" not working on Legacy",
+        "\"Network > Account > Unlocks > Equipment > Bunker Research\" being incorrect",
+        "\"Network > Player Manager > Search Players > x > Add to Fake Friends/Player Tracking/Join Blocking\" not disabling on use",
+        "\"Network > Player Manager > Search Players > x > Remove from Modder Database\" showing for players not in the database",
+        "\"Network > Toolbox > Transactions > Saved > x > Delete\" not deleting the entry",
+        "\"Network > Toolbox > Transactions > Clear\" requiring a re-entry to see the cleared options",
+        "\"Network > Toolbox > Transactions > x\" not having a title",
+        "\"Network > Player Manager > Search Players > Previous/Next Page\" not working very well",
+        "\"Network > Toolbox > Previous Session > Join\" not working",
+        "\"Network > Player Manager > Friends\" showing fake friends",
+        "\"Network > Players > x > Hostile > Annoying Sounds > Stop All\" not stopping ring tone",
+        "\"Network > Players > x > Vehicle > Attachment > Local Entity to Vehicle > Detach\" not working",
+        "\"Player > Model Changer > Wardrobe > Save/Load\" saving clothing you don't have equipped",
+        "\"Weapon > Armory > Weapons > x\" first option showing checked",
+        "\"Weapon > Loadouts > x > Delete\" not deleting the entry",
+        "\"Weapon > Mods > Vehicle Config\" not showing",
+        "\"Miscellaneous > Disables > Idle Kick\" not working in jobs",
+        "\"Vehicle > Los Santos Customs\" showing when not in a vehicle",
+        "\"Vehicle > Handling Editor\" showing when not in a vehicle",
+        "\"Vehicle > Movement > Drift > Bind\" not showing a hotkey badge",
+        "\"Vehicle > Delete\" not working",
+        "\"World > Time\" allowing \"Always Day\" & \"Always Night\" to be enabled at the same time",
+        "\"Settings > Themes > Load Theme > x > Auto Load\" not being able to be disabled",
+        "\"Spawner > Ramps > Spawned Ramps > x > Remove From Manager\" causing text to remain on screen",
+        "\"Spawner > Ramps\" only being able to spawn one ramp at a time",
+        "\"Weapon > Mods > Delete\" not working on peds",
+        "\"Weapon > Mods > Apply Force\" not working well online",
+        "\"Weapon > Mods > Triggerbot\" not respecting weapon shoot delay",
+        "\"Settings > Open Keys\" not showing a hotkey badge",
+        "\"Copy Info\" not copying correct data",
+        "player menu not kicking you from the submenu when the player leaves",
+        "command box having no notifications for use and toggle",
+        "command box not blocking ESC key",
+        "memory leaks when loading GIFs",
+        "directory tree views only showing one folder",
+        "crash replaying transactions",
+        "crash loading Stand files",
+        "random crash forcing script host",
+        "random crash editing vehicle handling",
+        "hotkey options showing a badge",
+        "player controller badge not showing when hovered"
+      ]
     }
   }
 ]
