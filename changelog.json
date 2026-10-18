@@ -2052,7 +2052,129 @@
         "random crash editing vehicle handling",
         "hotkey options showing a badge",
         "player controller badge not showing when hovered"
-      ]
+      ],
+      "Improved": [
+        "hotkey/display box design",
+        "renderer",
+        "most options in \"Network > Account > Unlocks\"",
+        "scrollbar UI",
+        "protections"
+      ],
+      "Lua": {
+        "Added": [
+          "`hook` table",
+          "`openssl` table",
+          "`pools.pickup`",
+          "`require_valid_guid` param to `pools.x` functions",
+          "`scr_value` indexing (0 based)"
+        ],
+        "Fixed": [
+          "native calls with vector params crashing",
+          "crash invoking a native that doesn't exist",
+          "`http.fetch` & `http.fetch_async` crashing when not supplying options (default: GET)",
+          "`input.mouse` not processing fast clicks",
+          "rare crash loading a texture",
+          "input being a frame behind",
+          "`account.stats` crashing when reading an invalid string"
+        ],
+        "Breaking Changes": [
+          "`pointer_*` indexing is now 0 based",
+          "memory address indexing is now 0 based"
+        ]
+      }
+    }
+  },
+  {
+    "version": "10.4.0",
+    "product": "Grand Theft Auto V",
+    "date": "10/18/2026",
+    "changes": {
+      "Fixed": [
+        "certain entity rate limits not working",
+        "crash blacklist timer not being set by default",
+        "a notification being dropped after clearing notifications",
+        "hotkeys breaking when an option adds or removes hotkeys",
+        "a crash from malformed entries in the commands config",
+        "file browser lists stopping on filesystem errors",
+        "garbled model names in model spoof notifications",
+        "a possible crash in vehicle stats for trains",
+        "possible crashes in player info panels, player stats and the session browser",
+        "IP geolocation crashing on malformed responses and retrying failed lookups on every join",
+        "possible ESP crashes and stale player names after players leave",
+        "player vehicle info going stale after re-entering the same vehicle",
+        "\"Boat Creation\" limitation editing the submarine limit",
+        "protection reactions possibly targeting a player who took a leaving player's slot",
+        "rate limit notifications repeating",
+        "crashes and leaks in Rockstar online queries on malformed responses",
+        "crashes when loading corrupt saved vehicle files",
+        "\"Save to garage\" hanging when the vehicle fails to spawn, and impulse vehicles never saving",
+        "possible crashes in garage listing, property names and CEO join handling",
+        "session magnet hanging on stalled adverts and leaving extra sessions advertised",
+        "a failing option callback stalling the script fiber",
+        "possible crashes when a menu action opens or closes a submenu",
+        "a possible crash when the hovered option or current submenu is deleted",
+        "the submenu title showing garbage after its submenu is renamed or deleted",
+        "going back skipping a level after entering the same submenu twice",
+        "hotkeys sharing one release timer, and a trailing \"+\" in long hotkey labels",
+        "number options with mismatched formats showing garbage values",
+        "possible crashes in multi-select combo, radio and text input options",
+        "theme images that fail to load being erased on the next save",
+        "loading a theme without an image keeping the previous image",
+        "rainbow colors saving the animated color instead of the base color",
+        "a possible crash drawing text when a font file is missing",
+        "scrolling up and down moving the scrollbar by different amounts",
+        "snow particles and animation delays jumping after a frame hitch",
+        "join blocking sending a version mismatch instead of the chosen response (Enhanced)",
+        "entity spam protection counting created entities twice (Enhanced)",
+        "\"Disable Jump Limitation\" blocking vehicle jumps instead of allowing air jumps (Enhanced)",
+        "weapons reloading when changing clip components (Enhanced)",
+        "\"No Fire Delay\" not working and corrupting weapon animation state (Enhanced)",
+        "transaction logging showing the wrong items (Enhanced)",
+        "teleport to objective missing some blips (Enhanced)",
+        "a possible crash in session browser lookups (Enhanced)",
+        "the last weapon and weapon component missing from weapon lists",
+        "a possible crash when freeing space for new peds or vehicles",
+        "the menu not showing with DLSS frame generation enabled, and a possible crash when changing graphics settings (Enhanced)",
+        "breaker options not translating",
+        "display box info not translating",
+        "hotkey notify info not translating"
+      ],
+      "Improved": [
+        "protections",
+        "protection performance during floods",
+        "ESP performance",
+        "notification, input and particle tracking performance",
+        "model name, color name and session type lookup performance",
+        "menu rendering, line particle and info box performance"
+      ],
+      "Lua": {
+        "Fixed": [
+          "locals vec2/vec3 offsets drifting between calls",
+          "crashes when a script unloads while its menu is open",
+          "crashes when scripts add or edit options while the menu is drawn",
+          "option callbacks firing for deleted options",
+          "event queues growing without limit on per-frame option events",
+          "an out of bounds read in the no-yield timeout",
+          "possible crashes drawing or measuring text with script fonts after unload or during a font rebuild",
+          "script fonts that fail to load never being retried",
+          "the font option of gui.text_size being ignored",
+          "memory reads/writes on invalid addresses crashing the game (they now return the default value or do nothing)",
+          "string writes into game memory overflowing (capped at 4096 bytes)",
+          "nop being able to patch unmapped memory",
+          "crashes from malformed combo lists, out-of-range indexes and oversized script.call/script_event argument lists",
+          "a crash when an http response contains malformed JSON, and byte-table POST/PUT bodies sending freed memory",
+          "json.encode crashing on self-referencing or deeply nested tables",
+          "scripts being able to freeze the game by removing the timeout or looping inside a coroutine or at load time",
+          "unloading sometimes leaving a script stuck and unable to reload",
+          "package.loaded.io/os exposing the unrestricted libraries; native library loading is disabled",
+          "io.open, script.patch, player.force_sync_node, player.script_event, memory_address:rip and globals/locals string/vector writes skipping script permissions"
+        ],
+        "Improved": [
+          "event, option callback and logging performance",
+          "memory_address add/sub/rip performance and memory use",
+          "native call performance while scripts hook natives"
+        ]
+      }
     }
   }
 ]
