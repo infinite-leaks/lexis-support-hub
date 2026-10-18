@@ -1,4 +1,3 @@
-
 {
   "casino lucky wheel rigging cars.lua": {
     "author": "melonarmy122",
@@ -19,5 +18,9 @@
   "UltimateHeitsControl.lua": {
     "author": "Danny",
     "description": "Posted by @melonarmy122 and @𝐗𝐈𝐓𝐙 using my base. FYI Pete stole from this and decided to sell it for his own personal gain. We do not condone selling code that isn't yours. Enjoy."
+  },
+  "Garage Manager.lua": {
+    "author": "epic_ninja454",
+    "description": "Vehicle Manager (EE) — press F6 to open. A full garage inventory manager for GTA Online Enhanced. Browse garages and vehicles, inspect installed mods, and disambiguate cars with plates plus a pannable 3D preview. New update: the 3D preview is now built in instead of a separate preview script, and vehicles can be deleted permanently with a confirmation dialog. Also includes vehicle search by name, drag and drop between garages to rearrange or swap, GTA+ entitlement checks before writing to the Vinewood Club garage, a one-click claim for destroyed cars via the Vinewood app, confirmation prompts, and ambiguous-write safety locks. It ain't much but it's definitely better than the Manage Vehicles menu. More on the way."
   }
 }
